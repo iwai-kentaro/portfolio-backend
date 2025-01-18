@@ -218,3 +218,742 @@ Migrating to Users (20250118055535)
   [1m[36mActiveRecord::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20250118055535')[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4373051316486144390')[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/" for 172.18.0.1 at 2025-01-18 06:02:15 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.2.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.2.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/v1/user/" for 172.18.0.1 at 2025-01-18 06:02:27 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/v1/user"):
+  
+Started GET "/favicon.ico" for 172.18.0.1 at 2025-01-18 06:02:27 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/v1/user/index" for 172.18.0.1 at 2025-01-18 06:02:36 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/v1/user/index"):
+  
+Started GET "/v1/user/" for 172.18.0.1 at 2025-01-18 06:02:49 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/v1/user"):
+  
+Started GET "/v1/user/" for 172.18.0.1 at 2025-01-18 06:05:33 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/v1/user"):
+  
+Started GET "/v1/user/" for 172.18.0.1 at 2025-01-18 06:05:34 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/v1/user"):
+  
+Started GET "/v1/user/" for 172.18.0.1 at 2025-01-18 06:05:36 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/v1/user"):
+  
+Started GET "/api/v1/user/" for 172.18.0.1 at 2025-01-18 06:06:05 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/user"):
+  
+Started GET "/api/v1/user/" for 172.18.0.1 at 2025-01-18 06:06:07 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/user"):
+  
+Started GET "/api/v1/user/" for 172.18.0.1 at 2025-01-18 06:06:08 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/user"):
+  
+Started GET "/api/v1/user/" for 172.18.0.1 at 2025-01-18 06:06:08 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/user"):
+  
+Started GET "/" for 172.18.0.1 at 2025-01-18 06:06:25 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.2.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.2.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/v1/user" for 172.18.0.1 at 2025-01-18 06:06:35 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/user"):
+  
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 06:07:24 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (uninitialized constant Api::V1::UsersController):
+
+Causes:
+ActionDispatch::MissingController (uninitialized constant Api::V1::UsersController)
+NameError (uninitialized constant Api::V1::UsersController)
+  
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 06:08:36 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (uninitialized constant Api::V1::UsersController):
+
+Causes:
+ActionDispatch::MissingController (uninitialized constant Api::V1::UsersController)
+NameError (uninitialized constant Api::V1::UsersController)
+  
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 06:08:51 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (uninitialized constant Api::V1::UsersController):
+
+Causes:
+ActionDispatch::MissingController (uninitialized constant Api::V1::UsersController)
+NameError (uninitialized constant Api::V1::UsersController)
+  
+Started GET "/favicon.ico" for 172.18.0.1 at 2025-01-18 06:08:51 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 06:10:10 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::V1::UsersController#index as HTML
+Completed 200 OK in 24ms (Views: 0.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.0ms)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4373051316486144390', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to CreateUsers (20250118061438)
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `email` varchar(255), `password_digest` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4373051316486144390')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 06:15:25 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate
+
+You have 1 pending migration:
+
+db/migrate/20250118061438_create_users.rb
+
+
+):
+  
+activerecord (7.2.2.1) lib/active_record/migration.rb:756:in `check_pending_migrations'
+activerecord (7.2.2.1) lib/active_record/migration.rb:663:in `block (2 levels) in call'
+activesupport (7.2.2.1) lib/active_support/file_update_checker.rb:85:in `execute'
+activesupport (7.2.2.1) lib/active_support/file_update_checker.rb:95:in `execute_if_updated'
+activerecord (7.2.2.1) lib/active_record/migration.rb:670:in `block in call'
+activerecord (7.2.2.1) lib/active_record/migration.rb:660:in `synchronize'
+activerecord (7.2.2.1) lib/active_record/migration.rb:660:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/callbacks.rb:31:in `block in call'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/callbacks.rb:30:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:31:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:32:in `call'
+railties (7.2.2.1) lib/rails/rack/logger.rb:41:in `call_app'
+railties (7.2.2.1) lib/rails/rack/logger.rb:29:in `call'
+sprockets-rails (3.5.2) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:96:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/request_id.rb:33:in `call'
+rack (3.1.8) lib/rack/method_override.rb:28:in `call'
+rack (3.1.8) lib/rack/runtime.rb:24:in `call'
+activesupport (7.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/static.rb:27:in `call'
+rack (3.1.8) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/host_authorization.rb:143:in `call'
+railties (7.2.2.1) lib/rails/engine.rb:535:in `call'
+puma (6.5.0) lib/puma/configuration.rb:279:in `call'
+puma (6.5.0) lib/puma/request.rb:99:in `block in handle_request'
+puma (6.5.0) lib/puma/thread_pool.rb:389:in `with_force_shutdown'
+puma (6.5.0) lib/puma/request.rb:98:in `handle_request'
+puma (6.5.0) lib/puma/server.rb:468:in `process_client'
+puma (6.5.0) lib/puma/server.rb:249:in `block in run'
+puma (6.5.0) lib/puma/thread_pool.rb:166:in `block in spawn_thread'
+  [1m[36mActiveRecord::SchemaMigration Load (13.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4373051316486144390', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to CreateUsers (20250118061438)
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `email` varchar(255), `password_digest` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4373051316486144390')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4373051316486144390', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to CreateUsers (20250118061438)
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `email` varchar(255), `password_digest` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4373051316486144390')[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT GET_LOCK('4373051316486144390', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4373051316486144390')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (18.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS `portfolio_development`[0m
+  [1m[35m (3.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS `portfolio_test`[0m
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE DATABASE `portfolio_development` DEFAULT CHARACTER SET `utf8`[0m
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE DATABASE `portfolio_test` DEFAULT CHARACTER SET `utf8`[0m
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 06:32:35 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (6.0ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (5.0ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (3.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/users"):
+  
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 06:33:20 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/users"):
+  
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 06:33:24 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/users"):
+  
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 06:33:33 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::V1::UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering api/v1/users/index.html.erb within layouts/application
+  Rendered api/v1/users/index.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 207.2ms | GC: 7.6ms)
+Completed 200 OK in 241ms (Views: 208.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 7.8ms)
+
+
+Started GET "/manifest.json" for 172.18.0.1 at 2025-01-18 06:33:34 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 06:34:36 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::V1::UsersController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+NameError (uninitialized constant Api::V1::UsersController::User):
+  
+app/controllers/api/v1/users_controller.rb:5:in `index'
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 06:34:45 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::V1::UsersController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+NameError (uninitialized constant Api::V1::UsersController::Users):
+  
+app/controllers/api/v1/users_controller.rb:5:in `index'
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4373051316486144390', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.6ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.8ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2025-01-18 06:38:13.254634', '2025-01-18 06:38:13.254636')[0m
+Migrating to CreateUsers (20250118063744)
+  [1m[35m (7.5ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `email` varchar(255), `password_digest` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20250118063744')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4373051316486144390')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 06:39:01 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Api::V1::UsersController#index as HTML
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/controllers/api/v1/users_controller.rb:6:in `index'
+Completed 200 OK in 25ms (Views: 1.8ms | ActiveRecord: 2.6ms (1 query, 0 cached) | GC: 1.6ms)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `password_digest`, `created_at`, `updated_at`) VALUES ('Alice', 'alice@example.com', 'password', '2025-01-18 06:40:29.484215', '2025-01-18 06:40:29.484215')[0m
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `password_digest`, `created_at`, `updated_at`) VALUES ('Bob', 'bob@example.com', 'password', '2025-01-18 06:40:29.493671', '2025-01-18 06:40:29.493671')[0m
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `password_digest`, `created_at`, `updated_at`) VALUES ('Alice', 'alice@example.com', 'password', '2025-01-18 06:41:42.576128', '2025-01-18 06:41:42.576128')[0m
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `password_digest`, `created_at`, `updated_at`) VALUES ('Bob', 'bob@example.com', 'password', '2025-01-18 06:41:42.579299', '2025-01-18 06:41:42.579299')[0m
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 06:41:46 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::V1::UsersController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/controllers/api/v1/users_controller.rb:6:in `index'
+Completed 200 OK in 31ms (Views: 22.1ms | ActiveRecord: 5.0ms (1 query, 0 cached) | GC: 2.4ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4373051316486144390', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to DeviseTokenAuthCreateUsers (20250118064718)
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `provider` varchar(255) DEFAULT 'email' NOT NULL, `uid` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime(6), `allow_password_change` tinyint(1) DEFAULT FALSE, `remember_created_at` datetime(6), `confirmation_token` varchar(255), `confirmed_at` datetime(6), `confirmation_sent_at` datetime(6), `unconfirmed_email` varchar(255), `name` varchar(255), `nickname` varchar(255), `image` varchar(255), `email` varchar(255), `tokens` text, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4373051316486144390')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4373051316486144390', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to DeviseTokenAuthCreateUsers (20250118064718)
+  [1m[35m (9.3ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `provider` varchar(255) DEFAULT 'email' NOT NULL, `uid` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime(6), `allow_password_change` tinyint(1) DEFAULT FALSE, `remember_created_at` datetime(6), `confirmation_token` varchar(255), `confirmed_at` datetime(6), `confirmation_sent_at` datetime(6), `unconfirmed_email` varchar(255), `name` varchar(255), `nickname` varchar(255), `image` varchar(255), `email` varchar(255), `tokens` text, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (11.5ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)[0m
+  [1m[35m (6.0ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_uid_and_provider` ON `users` (`uid`, `provider`)[0m
+  [1m[35m (5.5ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_confirmation_token` ON `users` (`confirmation_token`)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.2ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20250118064718')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4373051316486144390')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 07:18:52 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+NoMethodError (undefined method `mount_devise_token_auth_for' for #<ActionDispatch::Routing::Mapper:0x0000ffff9bbe7ad0 @set=#<ActionDispatch::Routing::RouteSet:0x0000ffffa08178b0>, @draw_paths=[#<Pathname:/usr/local/bundle/gems/actionview-7.2.2.1/config/routes>, #<Pathname:/usr/local/bundle/gems/activestorage-7.2.2.1/config/routes>, #<Pathname:/usr/local/bundle/gems/actioncable-7.2.2.1/config/routes>, #<Pathname:/usr/local/bundle/gems/actionmailbox-7.2.2.1/config/routes>, #<Pathname:/usr/local/bundle/gems/actiontext-7.2.2.1/config/routes>, #<Pathname:/usr/local/bundle/gems/importmap-rails-2.1.0/config/routes>, #<Pathname:/usr/local/bundle/gems/turbo-rails-2.0.11/config/routes>, #<Pathname:/usr/local/bundle/gems/stimulus-rails-1.3.4/config/routes>, #<Pathname:/app/config/routes>, #<Pathname:/app/config/routes>], @scope=#<ActionDispatch::Routing::Mapper::Scope:0x0000ffff9b71cc58 @hash={:path_names=>{:new=>"new", :edit=>"edit"}}, @parent=#<ActionDispatch::Routing::Mapper::Scope:0x0000ffffa09979b0 @hash=nil, @parent=nil, @scope_level=nil>, @scope_level=nil>, @concerns={}>):
+  
+config/routes.rb:6:in `block (3 levels) in <main>'
+config/routes.rb:3:in `block (2 levels) in <main>'
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 07:20:53 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (2.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/users"):
+  
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 07:21:09 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/users"):
+  
+Started GET "/api/v1/auth" for 172.18.0.1 at 2025-01-18 07:21:24 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/auth"):
+  
+Started GET "/api/v1/auth/registrations" for 172.18.0.1 at 2025-01-18 07:21:37 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Redirected to http://localhost:3000/omniauth/registrations?namespace_name=api_v1&resource_class=User
+Completed 307 Temporary Redirect in 1ms
+
+
+Started GET "/omniauth/registrations?namespace_name=api_v1&resource_class=User" for 172.18.0.1 at 2025-01-18 07:21:37 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/omniauth/registrations"):
+  
+Started POST "/api/v1/auth" for 172.18.0.1 at 2025-01-18 07:25:43 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for Api::V1::Auth::RegistrationsController):
+  
+actionpack (7.2.2.1) lib/abstract_controller/base.rb:158:in `process'
+actionview (7.2.2.1) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.2.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (7.2.2.1) lib/action_controller/metal.rb:335:in `dispatch'
+actionpack (7.2.2.1) lib/action_dispatch/routing/route_set.rb:67:in `dispatch'
+actionpack (7.2.2.1) lib/action_dispatch/routing/route_set.rb:50:in `serve'
+actionpack (7.2.2.1) lib/action_dispatch/routing/mapper.rb:32:in `block in <class:Constraints>'
+actionpack (7.2.2.1) lib/action_dispatch/routing/mapper.rb:62:in `serve'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:53:in `block in serve'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:133:in `block in find_routes'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:126:in `each'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:126:in `find_routes'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:34:in `serve'
+actionpack (7.2.2.1) lib/action_dispatch/routing/route_set.rb:896:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (3.1.8) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.8) lib/rack/etag.rb:29:in `call'
+rack (3.1.8) lib/rack/conditional_get.rb:43:in `call'
+rack (3.1.8) lib/rack/head.rb:15:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/http/content_security_policy.rb:38:in `call'
+rack-session (2.1.0) lib/rack/session/abstract/id.rb:274:in `context'
+rack-session (2.1.0) lib/rack/session/abstract/id.rb:268:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.2.2.1) lib/active_record/migration.rb:674:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/callbacks.rb:31:in `block in call'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/callbacks.rb:30:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:31:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:32:in `call'
+railties (7.2.2.1) lib/rails/rack/logger.rb:41:in `call_app'
+railties (7.2.2.1) lib/rails/rack/logger.rb:29:in `call'
+sprockets-rails (3.5.2) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:96:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/request_id.rb:33:in `call'
+rack (3.1.8) lib/rack/method_override.rb:28:in `call'
+rack (3.1.8) lib/rack/runtime.rb:24:in `call'
+activesupport (7.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/static.rb:27:in `call'
+rack (3.1.8) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/host_authorization.rb:143:in `call'
+rack-cors (2.0.2) lib/rack/cors.rb:102:in `call'
+railties (7.2.2.1) lib/rails/engine.rb:535:in `call'
+puma (6.5.0) lib/puma/configuration.rb:279:in `call'
+puma (6.5.0) lib/puma/request.rb:99:in `block in handle_request'
+puma (6.5.0) lib/puma/thread_pool.rb:389:in `with_force_shutdown'
+puma (6.5.0) lib/puma/request.rb:98:in `handle_request'
+puma (6.5.0) lib/puma/server.rb:468:in `process_client'
+puma (6.5.0) lib/puma/server.rb:249:in `block in run'
+puma (6.5.0) lib/puma/thread_pool.rb:166:in `block in spawn_thread'
+Started GET "/omniauth/registrations?namespace_name=api_v1&resource_class=User" for 172.18.0.1 at 2025-01-18 07:26:43 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/omniauth/registrations"):
+  
+Started GET "/" for 172.18.0.1 at 2025-01-18 07:27:08 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.2.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.2.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 07:27:33 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/users"):
+  
+Started POST "/api/v1/auth" for 172.18.0.1 at 2025-01-18 07:29:53 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (6.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Api::V1::Auth::RegistrationsController#create as */*
+  Parameters: {"name"=>"test", "email"=>"[FILTERED]", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}
+Completed 422 Unprocessable Content in 257ms (Views: 0.1ms | ActiveRecord: 5.9ms (0 queries, 0 cached) | GC: 20.1ms)
+
+
+Started POST "/api/v1/auth" for 172.18.0.1 at 2025-01-18 07:33:25 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Api::V1::Auth::RegistrationsController#create as */*
+  Parameters: {"name"=>"test", "email"=>"[FILTERED]", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (2.0ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`email` = 'test@example.com' AND `users`.`provider` = 'email' LIMIT 1[0m
+  [1m[36mUser Create (2.3ms)[0m  [1m[32mINSERT INTO `users` (`provider`, `uid`, `encrypted_password`, `reset_password_token`, `reset_password_sent_at`, `allow_password_change`, `remember_created_at`, `confirmation_token`, `confirmed_at`, `confirmation_sent_at`, `unconfirmed_email`, `name`, `nickname`, `image`, `email`, `tokens`, `created_at`, `updated_at`) VALUES ('email', 'test@example.com', '$2a$12$awKp2Z4Ea0swZf3Wmiqu7uBpYVWCt5jLhIgToO96IK1aWxGPiiOQK', NULL, NULL, FALSE, NULL, 'WnYd7P5gmgNvs642Nzmu', NULL, '2025-01-18 07:33:25.999004', NULL, 'test', NULL, NULL, 'test@example.com', NULL, '2025-01-18 07:33:25.998943', '2025-01-18 07:33:25.998943')[0m
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering /usr/local/bundle/gems/devise_token_auth-1.2.5views/devise/mailer/confirmation_instructions.html.erb
+  Rendered /usr/local/bundle/gems/devise_token_auth-1.2.5views/devise/mailer/confirmation_instructions.html.erb (Duration: 1.8ms | GC: 0.1ms)
+Devise::Mailer#confirmation_instructions: processed outbound mail in 14.8ms
+Delivered mail 678b5946129b8_1413c85469@d2f079aaa26d.mail (23.5ms)
+Date: Sat, 18 Jan 2025 07:33:26 +0000
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: test@example.com
+Message-ID: <678b5946129b8_1413c85469@d2f079aaa26d.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+client-config: default
+redirect-url: http://localhost:3000
+
+<!-- BEGIN /usr/local/bundle/gems/devise_token_auth-1.2.5/app/views/devise/mailer/confirmation_instructions.html.erb --><p>Welcome test@example.com!</p>
+
+<p>You can confirm your account email through the link below: </p>
+
+<p><a href="http://localhost:3000/api/v1/auth/confirmation?config=default&confirmation_token=WnYd7P5gmgNvs642Nzmu&redirect_url=http%3A%2F%2Flocalhost%3A3000">Confirm my account</a></p>
+<!-- END /usr/local/bundle/gems/devise_token_auth-1.2.5/app/views/devise/mailer/confirmation_instructions.html.erb -->
+Completed 200 OK in 326ms (Views: 0.2ms | ActiveRecord: 10.8ms (2 queries, 0 cached) | GC: 7.6ms)
+
+
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 07:34:08 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/users"):
+  
+Started POST "/api/v1/auth/sign_in" for 172.18.0.1 at 2025-01-18 07:36:38 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by DeviseTokenAuth::SessionsController#create as */*
+  Parameters: {"email"=>"[FILTERED]", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE (BINARY `email` = 'test@example.com' AND provider= 'email') ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 401 Unauthorized in 17ms (Views: 0.4ms | ActiveRecord: 4.9ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/api/v1/auth/sign_in" for 172.18.0.1 at 2025-01-18 07:38:19 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by DeviseTokenAuth::SessionsController#create as */*
+  Parameters: {"email"=>"[FILTERED]", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE (BINARY `email` = 'test@example.com' AND provider= 'email') ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (1.1ms)[0m  [1m[37mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1 FOR UPDATE[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE `users` SET `users`.`tokens` = '{\"qmmiKMlN_m5lYLjzp9ivzw\":{\"token\":\"$2a$10$WPYlONKrvDZfMbi.Vq13cOoSgLjCbYH2rm6oLyfYDycAKjmKkcj7u\",\"expiry\":1738395499}}', `users`.`updated_at` = '2025-01-18 07:38:19.824494' WHERE `users`.`id` = 1[0m
+  [1m[36mTRANSACTION (4.8ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 248ms (ActiveRecord: 9.9ms (3 queries, 0 cached) | GC: 0.6ms)
+
+
+  
+NoMethodError (undefined method `current_sign_in_at' for #<User email: [FILTERED], provider: "email", uid: "test@example.com", id: 1, allow_password_change: [FILTERED], name: "test", nickname: nil, image: nil, created_at: "2025-01-18 07:33:25.998943000 +0000", updated_at: "2025-01-18 07:38:19.824494000 +0000">):
+  
+activemodel (7.2.2.1) lib/active_model/attribute_methods.rb:512:in `method_missing'
+activerecord (7.2.2.1) lib/active_record/attribute_methods.rb:491:in `method_missing'
+devise (4.9.4) lib/devise/models/trackable.rb:21:in `update_tracked_fields'
+devise (4.9.4) lib/devise/models/trackable.rb:39:in `update_tracked_fields!'
+devise (4.9.4) lib/devise/hooks/trackable.rb:9:in `block in <main>'
+warden (1.2.9) lib/warden/hooks.rb:15:in `block in _run_callbacks'
+warden (1.2.9) lib/warden/hooks.rb:10:in `each'
+warden (1.2.9) lib/warden/hooks.rb:10:in `_run_callbacks'
+warden (1.2.9) lib/warden/manager.rb:52:in `_run_callbacks'
+warden (1.2.9) lib/warden/proxy.rb:191:in `set_user'
+devise (4.9.4) lib/devise/controllers/sign_in_out.rb:53:in `sign_in'
+devise_token_auth (1.2.5) app/controllers/devise_token_auth/sessions_controller.rb:28:in `create'
+actionpack (7.2.2.1) lib/action_controller/metal/basic_implicit_render.rb:8:in `send_action'
+actionpack (7.2.2.1) lib/abstract_controller/base.rb:226:in `process_action'
+actionpack (7.2.2.1) lib/action_controller/metal/rendering.rb:193:in `process_action'
+actionpack (7.2.2.1) lib/abstract_controller/callbacks.rb:261:in `block in process_action'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+turbo-rails (2.0.11) lib/turbo-rails.rb:24:in `with_request_id'
+turbo-rails (2.0.11) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+actiontext (7.2.2.1) lib/action_text/rendering.rb:25:in `with_renderer'
+actiontext (7.2.2.1) lib/action_text/engine.rb:71:in `block (4 levels) in <class:Engine>'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.2.2.1) lib/abstract_controller/callbacks.rb:260:in `process_action'
+actionpack (7.2.2.1) lib/action_controller/metal/rescue.rb:27:in `process_action'
+actionpack (7.2.2.1) lib/action_controller/metal/instrumentation.rb:77:in `block in process_action'
+activesupport (7.2.2.1) lib/active_support/notifications.rb:210:in `block in instrument'
+activesupport (7.2.2.1) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.2.2.1) lib/active_support/notifications.rb:210:in `instrument'
+actionpack (7.2.2.1) lib/action_controller/metal/instrumentation.rb:76:in `process_action'
+actionpack (7.2.2.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.2.2.1) lib/active_record/railties/controller_runtime.rb:39:in `process_action'
+actionpack (7.2.2.1) lib/abstract_controller/base.rb:163:in `process'
+actionview (7.2.2.1) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.2.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (7.2.2.1) lib/action_controller/metal.rb:335:in `dispatch'
+actionpack (7.2.2.1) lib/action_dispatch/routing/route_set.rb:67:in `dispatch'
+actionpack (7.2.2.1) lib/action_dispatch/routing/route_set.rb:50:in `serve'
+actionpack (7.2.2.1) lib/action_dispatch/routing/mapper.rb:32:in `block in <class:Constraints>'
+actionpack (7.2.2.1) lib/action_dispatch/routing/mapper.rb:62:in `serve'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:53:in `block in serve'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:133:in `block in find_routes'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:126:in `each'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:126:in `find_routes'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:34:in `serve'
+actionpack (7.2.2.1) lib/action_dispatch/routing/route_set.rb:896:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (3.1.8) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.8) lib/rack/etag.rb:29:in `call'
+rack (3.1.8) lib/rack/conditional_get.rb:43:in `call'
+rack (3.1.8) lib/rack/head.rb:15:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/http/content_security_policy.rb:38:in `call'
+rack-session (2.1.0) lib/rack/session/abstract/id.rb:274:in `context'
+rack-session (2.1.0) lib/rack/session/abstract/id.rb:268:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.2.2.1) lib/active_record/migration.rb:674:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/callbacks.rb:31:in `block in call'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/callbacks.rb:30:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:31:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:32:in `call'
+railties (7.2.2.1) lib/rails/rack/logger.rb:41:in `call_app'
+railties (7.2.2.1) lib/rails/rack/logger.rb:29:in `call'
+sprockets-rails (3.5.2) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:96:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/request_id.rb:33:in `call'
+rack (3.1.8) lib/rack/method_override.rb:28:in `call'
+rack (3.1.8) lib/rack/runtime.rb:24:in `call'
+activesupport (7.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/static.rb:27:in `call'
+rack (3.1.8) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/host_authorization.rb:143:in `call'
+rack-cors (2.0.2) lib/rack/cors.rb:102:in `call'
+railties (7.2.2.1) lib/rails/engine.rb:535:in `call'
+puma (6.5.0) lib/puma/configuration.rb:279:in `call'
+puma (6.5.0) lib/puma/request.rb:99:in `block in handle_request'
+puma (6.5.0) lib/puma/thread_pool.rb:389:in `with_force_shutdown'
+puma (6.5.0) lib/puma/request.rb:98:in `handle_request'
+puma (6.5.0) lib/puma/server.rb:468:in `process_client'
+puma (6.5.0) lib/puma/server.rb:249:in `block in run'
+puma (6.5.0) lib/puma/thread_pool.rb:166:in `block in spawn_thread'
+Started GET "/api/v1/users" for 172.18.0.1 at 2025-01-18 07:40:58 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/users"):
+  
+Started GET "/api/v1/user/1" for 172.18.0.1 at 2025-01-18 07:41:05 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/user/1"):
+  
+Started GET "/api/v1/users/1" for 172.18.0.1 at 2025-01-18 07:41:09 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/users/1"):
+  
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'test@example.com' AND `users`.`provider` = 'email' LIMIT 1[0m
+Started POST "/api/v1/auth/sign_in" for 172.18.0.1 at 2025-01-18 07:59:28 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by DeviseTokenAuth::SessionsController#create as */*
+  Parameters: {"email"=>"[FILTERED]", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE (BINARY `email` = 'test@example.com' AND provider= 'email') ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (1.7ms)[0m  [1m[37mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1 FOR UPDATE[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE `users` SET `users`.`tokens` = '{\"qmmiKMlN_m5lYLjzp9ivzw\":{\"token\":\"$2a$10$WPYlONKrvDZfMbi.Vq13cOoSgLjCbYH2rm6oLyfYDycAKjmKkcj7u\",\"expiry\":1738395499},\"0PWb1FFa_vPpLknvriDZsg\":{\"token\":\"$2a$10$t3J5U9rysDQuGiDNl72YNeXxbGXrZ2cF56Y4yKkLQydkQwbAKOHza\",\"expiry\":1738396768}}', `users`.`updated_at` = '2025-01-18 07:59:28.295415' WHERE `users`.`id` = 1[0m
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 266ms (ActiveRecord: 6.9ms (3 queries, 0 cached) | GC: 1.7ms)
+
+
+  
+NoMethodError (undefined method `current_sign_in_at' for #<User email: [FILTERED], provider: "email", uid: "test@example.com", id: 1, allow_password_change: [FILTERED], name: "test", nickname: nil, image: nil, created_at: "2025-01-18 07:33:25.998943000 +0000", updated_at: "2025-01-18 07:59:28.295415000 +0000">):
+  
+activemodel (7.2.2.1) lib/active_model/attribute_methods.rb:512:in `method_missing'
+activerecord (7.2.2.1) lib/active_record/attribute_methods.rb:491:in `method_missing'
+devise (4.9.4) lib/devise/models/trackable.rb:21:in `update_tracked_fields'
+devise (4.9.4) lib/devise/models/trackable.rb:39:in `update_tracked_fields!'
+devise (4.9.4) lib/devise/hooks/trackable.rb:9:in `block in <main>'
+warden (1.2.9) lib/warden/hooks.rb:15:in `block in _run_callbacks'
+warden (1.2.9) lib/warden/hooks.rb:10:in `each'
+warden (1.2.9) lib/warden/hooks.rb:10:in `_run_callbacks'
+warden (1.2.9) lib/warden/manager.rb:52:in `_run_callbacks'
+warden (1.2.9) lib/warden/proxy.rb:191:in `set_user'
+devise (4.9.4) lib/devise/controllers/sign_in_out.rb:53:in `sign_in'
+devise_token_auth (1.2.5) app/controllers/devise_token_auth/sessions_controller.rb:28:in `create'
+actionpack (7.2.2.1) lib/action_controller/metal/basic_implicit_render.rb:8:in `send_action'
+actionpack (7.2.2.1) lib/abstract_controller/base.rb:226:in `process_action'
+actionpack (7.2.2.1) lib/action_controller/metal/rendering.rb:193:in `process_action'
+actionpack (7.2.2.1) lib/abstract_controller/callbacks.rb:261:in `block in process_action'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+turbo-rails (2.0.11) lib/turbo-rails.rb:24:in `with_request_id'
+turbo-rails (2.0.11) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+actiontext (7.2.2.1) lib/action_text/rendering.rb:25:in `with_renderer'
+actiontext (7.2.2.1) lib/action_text/engine.rb:71:in `block (4 levels) in <class:Engine>'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.2.2.1) lib/abstract_controller/callbacks.rb:260:in `process_action'
+actionpack (7.2.2.1) lib/action_controller/metal/rescue.rb:27:in `process_action'
+actionpack (7.2.2.1) lib/action_controller/metal/instrumentation.rb:77:in `block in process_action'
+activesupport (7.2.2.1) lib/active_support/notifications.rb:210:in `block in instrument'
+activesupport (7.2.2.1) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.2.2.1) lib/active_support/notifications.rb:210:in `instrument'
+actionpack (7.2.2.1) lib/action_controller/metal/instrumentation.rb:76:in `process_action'
+actionpack (7.2.2.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.2.2.1) lib/active_record/railties/controller_runtime.rb:39:in `process_action'
+actionpack (7.2.2.1) lib/abstract_controller/base.rb:163:in `process'
+actionview (7.2.2.1) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.2.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (7.2.2.1) lib/action_controller/metal.rb:335:in `dispatch'
+actionpack (7.2.2.1) lib/action_dispatch/routing/route_set.rb:67:in `dispatch'
+actionpack (7.2.2.1) lib/action_dispatch/routing/route_set.rb:50:in `serve'
+actionpack (7.2.2.1) lib/action_dispatch/routing/mapper.rb:32:in `block in <class:Constraints>'
+actionpack (7.2.2.1) lib/action_dispatch/routing/mapper.rb:62:in `serve'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:53:in `block in serve'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:133:in `block in find_routes'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:126:in `each'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:126:in `find_routes'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:34:in `serve'
+actionpack (7.2.2.1) lib/action_dispatch/routing/route_set.rb:896:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (3.1.8) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.8) lib/rack/etag.rb:29:in `call'
+rack (3.1.8) lib/rack/conditional_get.rb:43:in `call'
+rack (3.1.8) lib/rack/head.rb:15:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/http/content_security_policy.rb:38:in `call'
+rack-session (2.1.0) lib/rack/session/abstract/id.rb:274:in `context'
+rack-session (2.1.0) lib/rack/session/abstract/id.rb:268:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.2.2.1) lib/active_record/migration.rb:674:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/callbacks.rb:31:in `block in call'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/callbacks.rb:30:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:31:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:32:in `call'
+railties (7.2.2.1) lib/rails/rack/logger.rb:41:in `call_app'
+railties (7.2.2.1) lib/rails/rack/logger.rb:29:in `call'
+sprockets-rails (3.5.2) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:96:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/request_id.rb:33:in `call'
+rack (3.1.8) lib/rack/method_override.rb:28:in `call'
+rack (3.1.8) lib/rack/runtime.rb:24:in `call'
+activesupport (7.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/static.rb:27:in `call'
+rack (3.1.8) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/host_authorization.rb:143:in `call'
+rack-cors (2.0.2) lib/rack/cors.rb:102:in `call'
+railties (7.2.2.1) lib/rails/engine.rb:535:in `call'
+puma (6.5.0) lib/puma/configuration.rb:279:in `call'
+puma (6.5.0) lib/puma/request.rb:99:in `block in handle_request'
+puma (6.5.0) lib/puma/thread_pool.rb:389:in `with_force_shutdown'
+puma (6.5.0) lib/puma/request.rb:98:in `handle_request'
+puma (6.5.0) lib/puma/server.rb:468:in `process_client'
+puma (6.5.0) lib/puma/server.rb:249:in `block in run'
+puma (6.5.0) lib/puma/thread_pool.rb:166:in `block in spawn_thread'

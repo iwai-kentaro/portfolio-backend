@@ -13,6 +13,12 @@ development:
 test:
   <<: *default
   database: portfolio_test
+  adapter: mysql2
+  encoding: utf8mb4
+  username: root
+  password: password
+  host: db
+  port: 3306
 
 production:
   <<: *default

@@ -1,4 +1,3 @@
----
 openapi: 3.0.1
 info:
   title: API V1
@@ -8,7 +7,7 @@ paths:
     post:
       summary: ユーザーのログイン
       tags:
-      - Auth
+      - Portfolio/Auth
       parameters: []
       responses:
         '200':
@@ -30,6 +29,112 @@ paths:
               required:
               - email
               - password
+  "/api/v1/auth/sign_up":
+    post:
+      summary: ユーザー登録
+      tags:
+      - Portfolio/Auth
+      parameters: []
+      responses:
+        '201':
+          description: ユーザー登録成功
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    example: 1
+                  email:
+                    type: string
+                    example: user@example.com
+                  name:
+                    type: string
+                    example: John Doe
+        '400':
+          description: 入力エラー
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: Invalid input data
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                  example: John Doe
+                email:
+                  type: string
+                  example: user@example.com
+                password:
+                  type: string
+                  example: password123
+                password_confirmation:
+                  type: string
+                  example: password123
+              required:
+              - name
+              - email
+              - password
+              - password_confirmation
+  "/api/v1/auth/session":
+    get:
+      summary: 現在のセッション情報を取得
+      tags:
+      - Portfolio/Auth
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: ログイン中のユーザー情報を返却
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  is_login:
+                    type: boolean
+                    example: true
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                        example: 1
+                      email:
+                        type: string
+                        example: user@example.com
+                      name:
+                        type: string
+                        example: John Doe
+        '401':
+          description: ログイン情報なし
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  is_login:
+                    type: boolean
+                    example: false
+                  message:
+                    type: string
+                    example: "ユーザーが存在しません"
 servers:
 - url: http://localhost:3000
   description: Development server
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

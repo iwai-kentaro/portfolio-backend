@@ -1,31 +1,25 @@
 version: "3.8"
-
 services:
-  web:
-    build:
-      context: .
-    ports:
-      - "${HOST_PORT}:3000" # Railsアプリケーションが使用するポート
-    volumes:
-      - .:/rails # ローカルディレクトリをコンテナにマウント
-      - /rails/vendor/bundle # Bundlerキャッシュを永続化
-    environment:
-      RAILS_ENV: development
-      DATABASE_HOST: ${DATABASE_HOST}
-      DATABASE_USERNAME: ${DATABASE_USERNAME}
-      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
-    depends_on:
-      - db # MySQLコンテナが先に起動するように設定
-
   db:
     image: mysql:8.0
     environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
-    volumes:
-      - db-data:/var/lib/mysql # データベースデータを永続化
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: app_development
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
     ports:
-      - "3306:3306" # MySQLが使用するポート
-
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+  web:
+    build:
+      context: .
+    command: bundle exec rails s -b 0.0.0.0
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
 volumes:
-  db-data: # データベースの永続化ストレージ
+  mysql-data:

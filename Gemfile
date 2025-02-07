@@ -18,7 +18,7 @@ gem "omniauth", "~> 2.0"
 gem "rswag-ui"
 gem "rswag-api"
 gem "rswag-specs"
-gem "rspec-rails", "~> 6.0.0"
+gem "rspec-rails", "~> 7.1.1"
 
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
